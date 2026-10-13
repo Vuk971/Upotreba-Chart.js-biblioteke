@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charts</title>
+  </head>
+  <style>
+    body {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      gap: 1rem;
+      max-width: 1000px;
+      div {
+        max-width: 500px;
+        background-color: whitesmoke;
+      }
+    }
+  </style>
+  <body>
+    <div>
+      <canvas id="polarArea"></canvas>
+    </div>
+    <div>
+      <canvas id="pie"></canvas>
+    </div>
+    <div>
+      <canvas id="line"></canvas>
+    </div>
+    <div>
+      <canvas id="bar"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="charts.js"></script>
+  </body>
+</html>
